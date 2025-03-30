@@ -1,9 +1,14 @@
-import logo from "./logo.svg";
-import { Router } from "react-router-dom/cjs/react-router-dom";
-import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+import MainContent from "./Sections/MainContent";
 
 function App() {
-  return <Router basename="/currency-converter-react"></Router>;
+  return (
+    <>
+      <MainContent />
+    </>
+  );
 }
 
 export default App;

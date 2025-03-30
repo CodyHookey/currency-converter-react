@@ -1,0 +1,14 @@
+.moneyBillIcon,
+.calendarIcon {
+  height: 50px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
+}
