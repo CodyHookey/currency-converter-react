@@ -6,7 +6,7 @@ function InfoTabs() {
   return (
     <div className="text-center text-md-start container">
       <div className="row justify-content-between">
-        <div className="aboutUs px-3 pt-3 me-3 mb-3 col-12 col-lg-5">
+        <div className="aboutUs px-3 pt-3 me-3 col-12 col-lg-5 mb-3 mb-lg-0">
           <h2>About Us</h2>
           <p>
             At ExchangeFlow, we’re redefining how the world swaps currency. Born
