@@ -1,0 +1,19 @@
+.aboutUs,
+.comingSoon {
+  background-color: #f9fafb;
+}
+
+.imgContainer {
+  max-width: 200px;
+}
+
+.iphoneImage {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .imgContainer {
+    margin: 0 auto;
+  }
+}
