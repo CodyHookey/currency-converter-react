@@ -4,7 +4,7 @@ import "../css/InfoTabs.css";
 
 function InfoTabs() {
   return (
-    <div className="text-center text-md-start container">
+    <div className="text-center text-md-start">
       <div className="row justify-content-between">
         <div className="aboutUs px-3 pt-3 me-3 col-12 col-lg-5 mb-3 mb-lg-0">
           <h2>About Us</h2>

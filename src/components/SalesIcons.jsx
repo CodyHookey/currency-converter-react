@@ -5,7 +5,7 @@ import "../css/SalesIcons.css";
 
 function SalesIcons() {
   return (
-    <div className="salesInfo d-md-flex text-center container justify-content-center px-5">
+    <div className="salesInfo d-md-flex text-center justify-content-center px-5">
       <div className="fastConversion px-5 mb-5">
         <img
           src={moneyBillIcon}
