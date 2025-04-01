@@ -6,6 +6,7 @@ import { Switch, Route, Redirect } from "react-router-dom/cjs/react-router-dom";
 import NavBar from "./components/NavBar";
 import Home from "./Pages/Home";
 import Contact from "./Pages/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/contact" component={Contact} />
       </Switch>
+      <Footer />
     </>
   );
 }

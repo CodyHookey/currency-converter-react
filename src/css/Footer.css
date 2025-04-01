@@ -1,0 +1,39 @@
+footer {
+  background-color: #1f2937;
+}
+
+.footerBrand {
+  color: #f9fafb;
+  font-size: 24px;
+}
+
+.footerBrand:hover,
+.footerBrand:active {
+  color: #3b82f6;
+}
+
+footer p {
+  color: #f9fafb;
+}
+
+footer a {
+  color: #f9fafb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #3b82f6;
+}
+
+.smallText {
+  font-size: 12px;
+}
+
+.footerHeadings {
+  color: #3b82f6;
+}
+
+.footerIcons {
+  height: 16px;
+  width: auto;
+}
