@@ -23,10 +23,7 @@ function Footer() {
               Created By Cody Hookey for Altcademy Project 2025
             </p>
             <p className="smallText">
-              Using{" "}
-              <a href="https://frankfurter.dev/" className="refrenceLinks">
-                Frankfurter API
-              </a>{" "}
+              Using <a href="https://frankfurter.dev/">Frankfurter API </a>
               for rates
             </p>
             <p className="smallText">

@@ -1,0 +1,26 @@
+* {
+  color: #1f2937;
+}
+
+.submitBtn {
+  background-color: #3b82f6;
+  color: #f9fafb;
+  padding: 5px 50px;
+}
+
+.contactH1 {
+  font-size: 36px;
+  border-bottom: 4px solid #3b82f6;
+  display: inline-block;
+}
+
+.contactH2 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+@media (max-width: 576px) {
+  .submitBtn {
+    width: 100%;
+  }
+}

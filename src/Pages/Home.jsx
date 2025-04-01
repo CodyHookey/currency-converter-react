@@ -3,10 +3,17 @@ import InfoTabs from "../components/InfoTabs";
 
 function Home() {
   return (
-    <div className="container">
-      <SalesIcons />
-      <InfoTabs />
-    </div>
+    <>
+      <div className="heroBackground">
+        <div className="container">
+          <div className="row"></div>
+        </div>
+      </div>
+      <div className="container">
+        <SalesIcons />
+        <InfoTabs />
+      </div>
+    </>
   );
 }
 

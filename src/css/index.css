@@ -3,13 +3,10 @@
   padding: 0px;
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 24px;
-  border-bottom: solid 4px #3b82f6;
-  display: inline-block;
-}
-
 p {
   font-size: 16px;
+}
+
+.heroBackground {
+  background-color: #1f2937;
 }

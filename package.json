@@ -4,6 +4,7 @@
   "homepage": "https://codyhookey.github.io/currency-converter-react/",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.2.0",

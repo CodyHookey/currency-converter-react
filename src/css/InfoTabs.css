@@ -4,6 +4,13 @@
   border-radius: 10px;
 }
 
+.infoH2 {
+  font-weight: bold;
+  font-size: 24px;
+  border-bottom: solid 4px #3b82f6;
+  display: inline-block;
+}
+
 .imgContainer {
   max-width: 200px;
 }

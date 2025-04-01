@@ -7,7 +7,7 @@ function InfoTabs() {
     <div className="text-center text-md-start">
       <div className="row justify-content-between">
         <div className="aboutUs px-3 pt-3 me-3 col-12 col-lg-5 mb-3 mb-lg-0">
-          <h2>About Us</h2>
+          <h2 className="infoH2">About Us</h2>
           <p>
             At ExchangeFlow, we’re redefining how the world swaps currency. Born
             from a passion for seamless tech and global connectivity, we deliver
@@ -19,7 +19,7 @@ function InfoTabs() {
         </div>
         <div className="comingSoon d-md-flex px-3 pt-3 col-12 col-lg-6">
           <div className="pe-md-4">
-            <h2>Coming Soon</h2>
+            <h2 className="infoH2">Coming Soon</h2>
             <p>
               Get ready to swap fast and reach far on the go—our ExchangeFlow
               mobile app is launching soon, bringing instant currency conversion
