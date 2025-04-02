@@ -13,10 +13,10 @@ const ContactUs = () => {
       })
       .then(
         () => {
-          console.log("SUCCESS!");
+          alert("Message Sent Successfully");
         },
         (error) => {
-          console.log("FAILED...", error.text);
+          alert("FAILED...", error.text);
         }
       );
   };
@@ -46,8 +46,9 @@ const ContactUs = () => {
           <label>Your Message:</label>
           <textarea
             name="message"
-            className="d-block mb-4 form-control pb-5"
+            className="d-block mb-4 form-control"
             placeholder="Type your message here..."
+            id="messageInput"
           />
         </div>
       </div>

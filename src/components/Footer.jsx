@@ -8,7 +8,7 @@ import "../css/Footer.css";
 function Footer() {
   return (
     <footer>
-      <div className="container mt-5 py-4">
+      <div className="container mt-5 py-5">
         <div className="row">
           <div className="col-md-12 text-center text-lg-start col-lg-4 mb-2 mb-lg-0 footerListOne">
             <Link to="/" className="navbar-brand footerBrand fw-bold">

@@ -24,3 +24,7 @@
     width: 100%;
   }
 }
+
+#messageInput {
+  padding-bottom: 18%;
+}
