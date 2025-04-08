@@ -15,7 +15,7 @@ function NavBar() {
           />
           ExchangeFlow
         </Link>
-        <Link to="/contact" className="contactUs nav-link px-2">
+        <Link to="/contact" className="main-button nav-link px-2">
           Contact Us
         </Link>
       </div>
