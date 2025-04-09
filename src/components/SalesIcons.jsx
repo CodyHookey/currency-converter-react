@@ -13,7 +13,7 @@ function SalesIcons() {
           className="moneyBillIcon img-fluid mb-1"
         />
         <h2 className="salesIconsH2">Ultra Fast Conversions</h2>
-        <p className="salesIconsP px-5">
+        <p className="salesIconsP px-md-1 px-lg-3">
           Get your conversions quicker than ever with ExchangeFlow
         </p>
       </div>
@@ -24,7 +24,7 @@ function SalesIcons() {
           className="calendarIcon img-fluid mb-1"
         />
         <h2 className="salesIconsH2">Up to Date Currencies</h2>
-        <p className="salesIconsP px-5">
+        <p className="salesIconsP px-md-1 px-lg-3">
           The currencies here are always up to date and ready to convert
         </p>
       </div>
