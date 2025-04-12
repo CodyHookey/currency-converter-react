@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-import { Switch, Route, Redirect } from "react-router-dom/cjs/react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 
 import NavBar from "./components/NavBar";
 import Home from "./Pages/Home";
@@ -15,6 +15,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/contact" component={Contact} />
+        <Redirect to="/" />
       </Switch>
       <Footer />
     </>

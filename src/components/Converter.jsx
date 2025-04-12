@@ -38,7 +38,6 @@ class Converter extends React.Component {
       .then(checkStatus)
       .then(json)
       .then((response) => {
-        // console.log(response);
         let entries = Object.entries(response);
         this.setState(
           {
@@ -62,12 +61,17 @@ class Converter extends React.Component {
     const { name, value } = event.target;
 
     if (name === "firstSelect") {
-      this.setState({
-        baseRate: {
-          code: value,
-          amount: this.state.baseRate.amount,
+      this.setState(
+        {
+          baseRate: {
+            code: value,
+            amount: this.state.baseRate.amount,
+          },
         },
-      });
+        () => {
+          this.props.onBaseChange(value);
+        }
+      );
     } else if (name === "secondSelect") {
       this.setState({
         secondaryRate: {
@@ -185,6 +189,7 @@ class Converter extends React.Component {
               <div className="baseInput">
                 <select
                   name="firstSelect"
+                  id="firstSelect"
                   className="firstSelect"
                   value={this.state.baseRate.code || ""}
                   onChange={this.handleChange}
@@ -219,6 +224,7 @@ class Converter extends React.Component {
               <div className="baseInput">
                 <select
                   name="secondSelect"
+                  id="secondSelect"
                   className="secondSelect"
                   value={this.state.secondaryRate.code || ""}
                   onChange={this.handleChange}
@@ -241,14 +247,14 @@ class Converter extends React.Component {
                 />
               </div>
             </div>
-            <div className="d-flex justify-content-between mt-5 align-items-center">
-              <h3>
+            <div className="d-md-flex justify-content-between mt-5 align-items-center text-center">
+              <h4 className="mb-4 mb-lg-0">
                 1.0000 {this.state.baseRate.code} ={" "}
                 <span className="highLight">
                   {this.state.secondaryRate.defaultRate}
                 </span>{" "}
                 {this.state.secondaryRate.code}
-              </h3>
+              </h4>
               <input
                 type="submit"
                 value="Convert"

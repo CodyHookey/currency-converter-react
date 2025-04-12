@@ -1,0 +1,23 @@
+.scrollable-table-container {
+  overflow-y: auto;
+  max-height: 360px;
+}
+
+.table thead {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.table-names th {
+  color: #9ca3af;
+}
+
+td {
+  color: #1f2937;
+}
+
+.baseRow td {
+  font-weight: bold;
+  color: #3b82f6;
+}
