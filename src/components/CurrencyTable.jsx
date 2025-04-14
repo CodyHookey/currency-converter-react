@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { checkStatus, json } from "../utils/checkStatus";
 
 import "../css/CurrencyTable.css";
@@ -62,7 +63,13 @@ class CurrencyTable extends React.Component {
             {this.state.currencies.map(([currency, rate], index) => (
               <tr key={index}>
                 <td>{currency}</td>
-                <td>{rate}</td>
+                <td>
+                  <Link
+                    to={`/chart-page?base=${this.props.baseCurrency}&quote=${currency}`}
+                  >
+                    {rate}
+                  </Link>
+                </td>
               </tr>
             ))}
           </tbody>
