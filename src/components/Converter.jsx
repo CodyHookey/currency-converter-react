@@ -138,6 +138,14 @@ class Converter extends React.Component {
     const baseAmount = this.state.baseRate.amount;
     const secondAmount = this.state.secondaryRate.amount;
 
+    if (
+      !baseAmount ||
+      (baseAmount === "0" && !secondAmount) ||
+      secondAmount === "0"
+    ) {
+      return alert("Please put in a valid number to convert 😊");
+    }
+
     if (this.state.lastEdited === "first") {
       fetch(
         `https://api.frankfurter.app/latest?amount=${baseAmount}&from=${baseCode}&to=${secondCode}`
