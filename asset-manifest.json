@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/currency-converter-react/static/css/main.f8d8fc26.css",
-    "main.js": "/currency-converter-react/static/js/main.2a082144.js",
-    "static/js/453.3e161baf.chunk.js": "/currency-converter-react/static/js/453.3e161baf.chunk.js",
+    "main.js": "/currency-converter-react/static/js/main.37a346db.js",
+    "static/js/453.7d99a500.chunk.js": "/currency-converter-react/static/js/453.7d99a500.chunk.js",
     "static/media/vecteezy_smartphone-interface_11653234.png": "/currency-converter-react/static/media/vecteezy_smartphone-interface_11653234.277b2e07934ff1f7bd01.png",
     "static/media/calendar-days-solid.svg": "/currency-converter-react/static/media/calendar-days-solid.9aeeec2a0f2eb532ffe53ccb43d67d41.svg",
     "static/media/money-bill-transfer-solid.svg": "/currency-converter-react/static/media/money-bill-transfer-solid.15c72bd3896a5965344839ffff445777.svg",
@@ -11,11 +11,11 @@
     "static/media/phone-solid.svg": "/currency-converter-react/static/media/phone-solid.57d07dd227fc5546b68f558f9c5e77cd.svg",
     "static/media/envelope-solid.svg": "/currency-converter-react/static/media/envelope-solid.e15400a5d61ca0eaf5329745cb04f7a4.svg",
     "main.f8d8fc26.css.map": "/currency-converter-react/static/css/main.f8d8fc26.css.map",
-    "main.2a082144.js.map": "/currency-converter-react/static/js/main.2a082144.js.map",
-    "453.3e161baf.chunk.js.map": "/currency-converter-react/static/js/453.3e161baf.chunk.js.map"
+    "main.37a346db.js.map": "/currency-converter-react/static/js/main.37a346db.js.map",
+    "453.7d99a500.chunk.js.map": "/currency-converter-react/static/js/453.7d99a500.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8d8fc26.css",
-    "static/js/main.2a082144.js"
+    "static/js/main.37a346db.js"
   ]
 }
