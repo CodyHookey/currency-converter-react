@@ -1,5 +1,5 @@
 {
-  "name": "currency-converter",
+  "name": "currency-converter-react",
   "version": "0.1.0",
   "homepage": "https://codyhookey.github.io/currency-converter-react/",
   "private": true,
@@ -17,7 +17,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "deploy": "npm run build && gh-pages -d build",
+    "predeploy": "npm run build",
+    "postbuild": "cp build/index.html build/404.html",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
